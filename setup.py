@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name='string_grouper',
+    name='iosp_string_grouper',
     version='0.6.1',
     packages=['string_grouper', 'string_grouper_utils'],
     license='MIT License',
@@ -25,7 +25,7 @@ setup(
                       , 'scipy'
                       , 'scikit-learn'
                       , 'numpy'
-                      , 'sparse_dot_topn_for_blocks>=0.3.1'
+                      , 'sparse_dot_topn'
                       , 'topn>=0.0.7'
                       ]
 )
