@@ -900,7 +900,6 @@ class StringGrouper(object):
 
         optional_kwargs = {
             'return_best_ntop': True,
-            'sort': sort,
             'use_threads': self._config.number_of_processes > 1,
             'n_jobs': self._config.number_of_processes}
 
