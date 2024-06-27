@@ -900,8 +900,7 @@ class StringGrouper(object):
 
         optional_kwargs = {
             'return_best_ntop': True,
-            'use_threads': True,
-            'n_jobs': self._config.number_of_processes}
+            'use_threads': True}
 
         return awesome_cossim_topn(
             left_matrix, right_matrix,
